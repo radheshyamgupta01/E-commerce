@@ -1,0 +1,45 @@
+.logindiv{
+height: 350px;
+width: 500px;
+margin: 100px auto;
+background-color: rgb(5, 5, 90);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+color: white;
+border-radius: 10px;
+}
+.logindiv input{
+    height: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+     margin-left: 5px;
+     border-radius: 5px;
+     outline: none;
+     border: 0;
+     padding-left: 10px;
+}
+.logindiv button{
+   text-align: center;
+   position: relative;
+   left: 50px;
+   outline: 0;
+   border: none;
+   color: white;
+    width: 80px;
+    background-color: rgb(19, 7, 126);
+    height: 30px;
+    border-radius: 5px;
+}
+.logindiv .forgot{
+    width:150px;
+    margin-top: 8px;
+    height: 25px;
+    padding-left: 10px;
+    border-radius: 5px;
+    background-color: rgb(19, 7, 126);
+    color: white;
+    border: 1px solid  rgb(19, 7, 126);
+    cursor: pointer;
+}

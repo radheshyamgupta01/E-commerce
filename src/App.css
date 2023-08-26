@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+
+}
+/* nav{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+  height: 70px;
+  color: white;
+ 
+
+} */
+Routes {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+  height: 70px;
+  color: white;
+}
+nav ul{
+  display: flex;
+  /* position: relative;
+  top: 0;
+  left: 300px; */
+  justify-content: space-evenly;
+  align-items: center;
+ 
+}
+nav ul li{
+  list-style: none;
+  margin-left: 40px;
+}
+button{
+  position: relative;
+  height: 25px;
+  width: 50px;
+  border-radius: 5px;
+  outline: color(srgb 0 0 255);
+  top: 0;
+
+}

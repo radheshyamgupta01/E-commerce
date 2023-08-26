@@ -1,0 +1,36 @@
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+.aboutContainer h1{
+    padding: 10px;
+    font-family: 'Metal Mania', cursive;
+  
+    font-weight: 900;
+    padding-top: 20px;
+    font-size: xx-large;
+    
+}
+.aboutContainer .content{
+ display: flex;
+ justify-content: space-evenly;
+
+ align-items: center;
+ padding:  20px 180px 0px 180px;
+ 
+}
+.aboutContainer .content img{
+    margin-right: 50px;
+    border-radius: 50%;
+   
+    width: 200px;
+}
+.aboutContainer  .para{
+margin: 0 ;
+   padding: 0px 180px 29px 180px;
+
+}

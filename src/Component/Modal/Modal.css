@@ -1,0 +1,12 @@
+.modal {
+    /* max-width: 100vh; */
+    width: 400px;
+    border: 1px solid black;
+    background-color: rgb(243, 247, 247);
+    position: absolute;
+    top: 78px;
+    right: 0px;
+    z-index: 10000;
+    min-height: 100vh;
+
+}

@@ -1,0 +1,141 @@
+.modal_content_parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    max-height: 100vh;
+    max-width: 100vw;
+}
+
+.modal_content_parent .cartbuton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Metal Mania";
+    font-weight: bold;
+    font-size: 30px;
+    width: 100%;
+    margin-top: 15px;
+
+}
+
+.modal_content_parent .cartbuton .cancle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 25px;
+    position: relative;
+    top: 0px;
+    left: 110px;
+}
+
+.modal_content_parent .itemlist {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    text-decoration: underline;
+font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 10px;
+    margin-top: 15px;
+
+}
+
+.modal_content_parent .itemlist h2 {
+    width: 100px;
+    height: 25px;
+    font-size: 15px;
+    font-weight: 800;
+
+}
+
+.modal_content_parent .purchase .button1 {
+    width: 125px;
+    height: 40px;
+
+    background-color: aqua;
+    border: none;
+    outline: none;
+    font-weight: 750;
+    color: white;
+    font-size: larger;
+
+}
+
+.modal_content_parent .total {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    width: 100%;
+    gap: 30px;
+    padding-right: 20px;
+}
+
+.modal_content_parent .mapImageData img {
+
+    width: 50px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.modal_content_parent .mapImageData {
+    width: 100%;
+
+    /* border: 1px solid red; */
+}
+
+.modal_content_parent .mapImageData {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+.modal_content_parent .mapImageData li {
+
+    list-style: none;
+    align-content: center;
+}
+
+.modal_content_parent .mapImageData input {
+    width: 15px;
+
+    position: relative;
+    bottom: 20px;
+}
+
+.modal_content_parent .mapImageData .remove {
+
+    text-align: center;
+    position: relative;
+    padding-bottom: 25px;
+    bottom: 20px;
+    border-radius: 5px;
+
+}
+
+.remove button {
+
+    /* text-align: center;
+    position: relative;
+    padding-bottom: 25px;
+    bottom: 20px; */
+    background-color: brown;
+
+    border-radius: 5px;
+
+}
+
+.modal_content_parent .mapImageData ul {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    flex-direction: column;
+    /* background-color: aqua; */
+    padding-right: 80px;
+    gap: 10px;
+    width: 100%;
+}

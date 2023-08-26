@@ -1,0 +1,53 @@
+.buyticktes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    margin: 10px;
+    width: 100%;
+    align-content: center;
+    padding: 10px; 
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+
+.buyticktes button{
+    background-color: #56ccf2;
+    width: 135px;
+    border: none;
+    outline: none;
+    text-align: center;
+    height: 30px;
+    padding-bottom:  0px;
+    position: relative;
+    top: 15px;
+    border-radius: 5px;
+}
+.buytiktcontainer{
+   border-bottom: 1px solid black;
+    width: 700px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    
+    align-items: center;
+    align-content: center;
+    align-content: center;
+   
+    height: 100x;
+    margin-bottom: 5px;
+}
+.buytiktcontainer span{
+    width: 200px;
+}
+ .buytiktcontainer .location{
+    width: 300px;
+ }
+ul h2{
+    font-family: 'Metal Mania', cursive;
+  
+    font-weight: 900;
+    padding-top: 20px;
+    font-size: xx-large;
+}
+

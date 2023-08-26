@@ -1,0 +1,16 @@
+.div {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    
+} 
+.div>div>.imglogo{
+  
+   height: 30px;
+   margin-left: 15px;
+   background-color: transparent;
+   
+
+}

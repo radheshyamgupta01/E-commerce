@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  height: 50px;
+  color: white;
+  /* position: fixed; */
+  z-index: 1000;
+  width: 100%;
+  align-items: center;
+  /* position: relative; */
+  
+
+
+}
+
+nav ul {
+
+  /* position: relative; */
+  /* top: 0; */
+  /* left: 200x; */
+
+  /* position: absolute;
+  top: 25px;
+  left: 430px; */
+  display: flex;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 40px;
+  font-size: larger;
+  font-weight: 400;
+}
+nav ul li:hover,
+.active{
+color: rgb(223, 13, 13);
+} 
+
+
+.badge{
+  position: relative;
+  top: -5px;
+  right: 45px;
+ 
+  color:rgb(8, 184, 190);
+}
+.car_right_button {
+
+outline: 2px solid rgb(8, 184, 190);
+height: 25px;
+border: none;
+width: 50px;
+background-color: transparent;
+position: relative;
+top: 10px;
+/* left: 1250px; */
+right: 50px;
+font-size: 15px;
+border-radius: 5px;
+color: white;
+
+}
+.menue li a.active{
+border-bottom: 2px solid white;
+padding-bottom: 2px;
+
+}

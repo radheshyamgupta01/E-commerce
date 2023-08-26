@@ -1,0 +1,17 @@
+.textcontent{
+    border: 1px solid aqua;
+   
+    font-size: 30px;
+    height: 50px;
+    width: 300px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+ .textcontent .play img{
+    padding-top: 30px;
+    margin-top: 30px;
+ }
+
+
